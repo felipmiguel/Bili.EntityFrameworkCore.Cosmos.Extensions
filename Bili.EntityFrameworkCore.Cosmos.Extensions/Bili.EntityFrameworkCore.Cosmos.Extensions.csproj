@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Bili</Authors>
     <Description>Extension that provides an easy extension method to authenticate to CosmosDb using default credentials. No need to manage CosmosDb access keys.</Description>
@@ -9,6 +9,9 @@
     <RepositoryUrl>https://github.com/felipmiguel/Bili.EntityFrameworkCore.Cosmos.Extensions</RepositoryUrl>
     <RepositoryType>Public</RepositoryType>
     <PackageTags>CosmosDb EntityFramework EF Authentication DefaultAzureCredential</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0.1</Version>
+    <PackageReleaseNotes>Compatible with .net standard 2.1</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
