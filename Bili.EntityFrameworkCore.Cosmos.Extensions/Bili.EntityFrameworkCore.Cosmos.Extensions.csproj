@@ -5,6 +5,10 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Bili</Authors>
     <Description>Extension that provides an easy extension method to authenticate to CosmosDb using default credentials. No need to manage CosmosDb access keys.</Description>
+    <PackageProjectUrl>https://github.com/felipmiguel/Bili.EntityFrameworkCore.Cosmos.Extensions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/felipmiguel/Bili.EntityFrameworkCore.Cosmos.Extensions</RepositoryUrl>
+    <RepositoryType>Public</RepositoryType>
+    <PackageTags>CosmosDb EntityFramework EF Authentication DefaultAzureCredential</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
