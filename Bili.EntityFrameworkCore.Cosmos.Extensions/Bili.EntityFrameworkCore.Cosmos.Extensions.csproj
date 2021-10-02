@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Bili</Authors>
+    <Description>Extension that provides an easy extension method to authenticate to CosmosDb using default credentials. No need to manage CosmosDb access keys.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.4.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Cosmos" Version="5.0.10" />
+  </ItemGroup>
+
+</Project>
