@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
@@ -10,8 +10,8 @@
     <RepositoryType>Public</RepositoryType>
     <PackageTags>CosmosDb EntityFramework EF Authentication DefaultAzureCredential</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.0.1</Version>
-    <PackageReleaseNotes>Compatible with .net standard 2.1</PackageReleaseNotes>
+    <Version>1.0.2</Version>
+    <PackageReleaseNotes>Provides additional methods to control the TokenCredential used. Solves the scenario in the development workstation when the developer account has access to more than one tenant.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
